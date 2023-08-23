@@ -232,6 +232,11 @@ body {
 
 }
 
+.left img{
+    width: 150px;
+    height: 150px;
+}
+
 .left::-webkit-scrollbar {
     width: 4px;
 }
@@ -799,6 +804,10 @@ body {
 
 @media (max-width:1448px) {
 
+    .main {
+        padding: 0 !important;
+    }
+
     .section {
         padding: 0 6vw;
     }
@@ -818,19 +827,19 @@ body {
 
     .left {
         position: absolute;
-        transform: translateX(-500px);
+        transform: translateX(-5000px);
         transition: .3s;
         position: fixed;
         width: 100%;
         z-index: 1;
 
-        .btn{
+        .btn {
             width: fit-content;
             margin: 20px auto;
         }
     }
 
-    .active{
+    .active {
         transform: translateX(0);
     }
 
@@ -875,7 +884,6 @@ body {
             .cards {
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                grid-template-rows: 1fr 1fr;
             }
         }
     }
@@ -899,9 +907,10 @@ body {
         .hero__content {
             align-items: center;
 
-            .heading{
+            .heading {
                 text-align: center;
             }
+
             .paragraph {
                 text-align: center;
             }
