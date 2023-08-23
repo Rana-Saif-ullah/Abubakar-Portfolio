@@ -819,6 +819,19 @@ body {
     .left {
         position: absolute;
         transform: translateX(-500px);
+        transition: .3s;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+
+        .btn{
+            width: fit-content;
+            margin: 20px auto;
+        }
+    }
+
+    .active{
+        transform: translateX(0);
     }
 
     .edu__section {
