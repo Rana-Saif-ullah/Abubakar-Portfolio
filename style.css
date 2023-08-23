@@ -875,3 +875,54 @@ body {
         }
     }
 }
+
+
+@media (max-width:850px) {
+
+    .hero__section {
+        padding: 20px;
+        flex-direction: column-reverse;
+
+        .hero__content {
+            align-items: center;
+
+            .heading{
+                text-align: center;
+            }
+            .paragraph {
+                text-align: center;
+            }
+        }
+
+    }
+
+
+    .edu__section {
+
+        .education {
+            .edu__card {
+                flex-direction: column;
+                gap: 0px;
+            }
+        }
+
+    }
+}
+
+@media (max-width:582px) {
+    .service__section {
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .contact__section {
+        .contact__cards {
+            .cards {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }
+    }
+}
