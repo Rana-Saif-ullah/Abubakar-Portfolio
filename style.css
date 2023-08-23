@@ -583,7 +583,6 @@ body {
     }
 
     .contact__cards {
-        width: 40%;
 
         .cards {
             display: flex;
